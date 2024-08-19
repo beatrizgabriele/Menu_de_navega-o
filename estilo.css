@@ -1,0 +1,47 @@
+/* *{
+    background-color: antiquewhite
+} */
+nav{
+    background-color: rgb(118, 15, 15);
+    padding: 10px 0;
+}
+.titulo{
+    text-align: center;
+    font-family: cursive;
+}
+
+.produtos{
+    font-family: cursive;
+}
+
+.sobrenos{
+    /* justify-content: center; */
+    font-family: cursive;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 18px;
+}
+
+nav ul li a{
+    color:antiquewhite;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+nav ul li a:hover{
+    color: rgb(249, 98, 98);
+}
+footer{
+    background-color: rgb(163, 53, 53);
+    padding: 2px 0;
+    color: white;
+    justify-content: center;
+}
